@@ -34,4 +34,5 @@ class CollegeStudent(Student, SportsPlayer):
         print("College Name:", self.college_name)
 
 cs = CollegeStudent("Ron", "ST101", "Cricket", "ABC Engineering College")
+
 cs.display_college_student()
